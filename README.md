@@ -15,4 +15,4 @@ Releasechannel.com has/will-have the following functionalities and features:
 
 Basically, I believe in zero cost infrastructure. So will use the following architecture leveraging free offerings of AWS.
 
-![releasechannel.com Architecture](http://via.placeholder.com/200x150 "Architecture")
+![releasechannel.com Architecture](https://github.com/samanamp/releasechannel/raw/master/readme-resource/releasechannel.png "Architecture")
