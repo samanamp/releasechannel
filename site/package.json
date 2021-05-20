@@ -1,0 +1,19 @@
+{
+  "name": "releasechannel.com",
+  "version": "0.0.1",
+  "description": "For all who believe cornerstone of security and productivity is updated software!",
+  "main": "index.js",
+  "authors": {
+    "name": "Saman A. Pour",
+    "email": "samanamp@outlook.com"
+  },
+  "repository": "https://github.com/samanamp/releasechannel.git/releasechannel.com",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}

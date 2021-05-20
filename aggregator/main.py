@@ -24,6 +24,6 @@ for app in Application.scan():
         app_update = ApplicationUpdate(entry['title'], entry['updated'], entry['content'][0]['value'], entry['link'])
         update_list.append(app_update.__dict__)
 
-    app.updates = str(update_list)
+    app.set_updates(update_list)
     app.save()
 
