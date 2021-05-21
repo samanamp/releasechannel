@@ -1,15 +1,21 @@
-# Nginx Ingress Controller #
-## helm-chart-3.31.0 ##
- ### 2021-05-18T13:38:48Z ### 
-Link: https://github.com/kubernetes/ingress-nginx/releases/tag/helm-chart-3.31.0 
+# Nginx Ingress Controller
+
+## helm-chart-3.31.0
+<p style="font-size:12px;"> 18, May 2021 🔗 
+<a href="https://github.com/kubernetes/ingress-nginx/releases/tag/helm-chart-3.31.0" target="_blank"> 
+Source </a></p>
 <p>Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer</p>
-## helm-chart-3.30.0 ##
-### 2021-04-30T23:04:46Z ### 
-Link: https://github.com/kubernetes/ingress-nginx/releases/tag/helm-chart-3.30.0 
+
+## helm-chart-3.30.0
+<p style="font-size:12px;"> 30, Apr 2021 🔗 
+<a href="https://github.com/kubernetes/ingress-nginx/releases/tag/helm-chart-3.30.0" target="_blank"> 
+Source </a></p>
 <p>Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer</p>
-## NGINX: 0.46.0 ##
-### 2021-04-30T23:04:49Z ### 
-Link: https://github.com/kubernetes/ingress-nginx/releases/tag/controller-v0.46.0 
+
+## NGINX: 0.46.0
+<p style="font-size:12px;"> 30, Apr 2021 🔗 
+<a href="https://github.com/kubernetes/ingress-nginx/releases/tag/controller-v0.46.0" target="_blank"> 
+Source </a></p>
 <p><strong>Image:</strong></p>
 <ul>
 <li><code>k8s.gcr.io/ingress-nginx/controller:v0.46.0@sha256:52f0058bed0a17ab0fb35628ba97e8d52b5d32299fbc03cc0f6c7b9ff036b61a</code></li>
@@ -20,21 +26,29 @@ Link: https://github.com/kubernetes/ingress-nginx/releases/tag/controller-v0.46.
 </ul>
 <p>Complete changelog <a href="https://github.com/kubernetes/ingress-nginx/blob/master/Changelog.md">here</a></p>
 <p><strong>Important:</strong> due to changes in the <code>lua-nginx-module</code>, the image for platform <code>s390x</code> is not available. Please use <code>v0.40.2</code></p>
-## helm-chart-3.29.0 ##
- ### 2021-04-08T14:14:18Z ### 
-Link: https://github.com/kubernetes/ingress-nginx/releases/tag/helm-chart-3.29.0 
+
+## helm-chart-3.29.0
+<p style="font-size:12px;"> 08, Apr 2021 🔗 
+<a href="https://github.com/kubernetes/ingress-nginx/releases/tag/helm-chart-3.29.0" target="_blank"> 
+Source </a></p>
 <p>Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer</p>
-## helm-chart-3.28.0 ##
- ### 2021-04-07T19:35:57Z ### 
-Link: https://github.com/kubernetes/ingress-nginx/releases/tag/helm-chart-3.28.0 
+
+## helm-chart-3.28.0
+<p style="font-size:12px;"> 07, Apr 2021 🔗 
+<a href="https://github.com/kubernetes/ingress-nginx/releases/tag/helm-chart-3.28.0" target="_blank"> 
+Source </a></p>
 <p>Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer</p>
-## helm-chart-3.27.0 ##
- ### 2021-04-06T17:51:13Z ### 
-Link: https://github.com/kubernetes/ingress-nginx/releases/tag/helm-chart-3.27.0 
+
+## helm-chart-3.27.0
+<p style="font-size:12px;"> 06, Apr 2021 🔗 
+<a href="https://github.com/kubernetes/ingress-nginx/releases/tag/helm-chart-3.27.0" target="_blank"> 
+Source </a></p>
 <p>Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer</p>
-## NGINX: 0.45.0 ##
- ### 2021-04-06T19:11:08Z ### 
-Link: https://github.com/kubernetes/ingress-nginx/releases/tag/controller-v0.45.0 
+
+## NGINX: 0.45.0
+<p style="font-size:12px;"> 06, Apr 2021 🔗 
+<a href="https://github.com/kubernetes/ingress-nginx/releases/tag/controller-v0.45.0" target="_blank"> 
+Source </a></p>
 <p><strong>Image:</strong></p>
 <ul>
 <li><code>k8s.gcr.io/ingress-nginx/controller:v0.45.0@sha256:c4390c53f348c3bd4e60a5dd6a11c35799ae78c49388090140b9d72ccede1755</code></li>
@@ -47,15 +61,21 @@ Link: https://github.com/kubernetes/ingress-nginx/releases/tag/controller-v0.45.
 </ul>
 <p>Complete changelog <a href="https://github.com/kubernetes/ingress-nginx/blob/master/Changelog.md">here</a></p>
 <p><strong>Important:</strong> due to changes in the <code>lua-nginx-module</code>, the image for platform <code>s390x</code> is not available. Please use <code>v0.40.2</code></p>
-## helm-chart-3.26.0 ##
- ### 2021-03-31T14:58:10Z ### 
-Link: https://github.com/kubernetes/ingress-nginx/releases/tag/helm-chart-3.26.0 
+
+## helm-chart-3.26.0
+<p style="font-size:12px;"> 31, Mar 2021 🔗 
+<a href="https://github.com/kubernetes/ingress-nginx/releases/tag/helm-chart-3.26.0" target="_blank"> 
+Source </a></p>
 <p>Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer</p>
-## helm-chart-3.25.0 ##
- ### 2021-03-23T15:34:34Z ### 
-Link: https://github.com/kubernetes/ingress-nginx/releases/tag/helm-chart-3.25.0 
+
+## helm-chart-3.25.0
+<p style="font-size:12px;"> 23, Mar 2021 🔗 
+<a href="https://github.com/kubernetes/ingress-nginx/releases/tag/helm-chart-3.25.0" target="_blank"> 
+Source </a></p>
 <p>Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer</p>
-## helm-chart-3.24.0 ##
- ### 2021-03-09T22:29:52Z ### 
-Link: https://github.com/kubernetes/ingress-nginx/releases/tag/helm-chart-3.24.0 
+
+## helm-chart-3.24.0
+<p style="font-size:12px;"> 09, Mar 2021 🔗 
+<a href="https://github.com/kubernetes/ingress-nginx/releases/tag/helm-chart-3.24.0" target="_blank"> 
+Source </a></p>
 <p>Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer</p>

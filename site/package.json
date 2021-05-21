@@ -15,5 +15,11 @@
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.8.2"
+  },
+  "dependencies": {
+    "directory-tree": "^2.2.9",
+    "path": "^0.12.7",
+    "vuepress-auto-sidebar": "^1.1.1",
+    "vuepress-bar": "^0.4.2"
   }
 }

@@ -1,14 +1,23 @@
 const { description } = require('../../package')
+const sidebar = require('vuepress-auto-sidebar')
+const dirTree = require('directory-tree');
+const path = require('path');
 
+var applications = [];
+dirTree(path.join(__dirname, '../applications'), {extensions:/\.md/}, (item, PATH) => applications.push(item));
+applications = applications.map(children => {
+    return path.parse(children.name).name  !== 'README' ? path.join.apply(null, children.path.split(path.sep).slice(7)) : path.join.apply(null, children.path.split(path.sep).slice(7)).replace('README.md', '');
+});
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Release Channel',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
   description: description,
+  
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -34,44 +43,16 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
-      },
-      {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
         text: 'Applications',
         link: '/applications/'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'GitHub Source',
+        link: 'https://github.com/samanamp/releasechannel.git'
       }
     ],
     sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
-      '/applications/': [
-        {
-          title: 'Applications',
-          collapsable: false,
-          children: [
-            '',
-            'vue',
-            'nginx-ingress-controller'
-          ]
-        }
-      ],
+      '/applications/': applications
     }
   },
 

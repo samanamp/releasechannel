@@ -1,11 +1,15 @@
-# Vue #
-## v2.6.12 ##
- ### 2020-08-20T13:11:01Z ### 
-Link: https://github.com/vuejs/vue/releases/tag/v2.6.12 
+# Vue
+
+## v2.6.12
+<p style="font-size:12px;"> 20, Aug 2020 🔗 
+<a href="https://github.com/vuejs/vue/releases/tag/v2.6.12" target="_blank"> 
+Source </a></p>
 <p>build: release 2.6.12</p>
-## v2.6.11 ##
- ### 2019-12-13T20:00:22Z ### 
-Link: https://github.com/vuejs/vue/releases/tag/v2.6.11 
+
+## v2.6.11
+<p style="font-size:12px;"> 13, Dec 2019 🔗 
+<a href="https://github.com/vuejs/vue/releases/tag/v2.6.11" target="_blank"> 
+Source </a></p>
 <h3>Security Fixes</h3>
 <ul>
 <li>Bump <code>vue-server-renderer</code>'s dependency of <code>serialize-javascript</code> to 2.1.2</li>
@@ -17,9 +21,11 @@ Link: https://github.com/vuejs/vue/releases/tag/v2.6.11
 <li><strong>compiler:</strong> Remove the warning for valid v-slot value (<a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9917">#9917</a>) <a class="commit-link" href="https://github.com/vuejs/vue/commit/085d188379af98e9f482d7e2009ebfd771bd7ca5"><tt>085d188</tt></a>, closes <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9917">#9917</a></li>
 <li><strong>types:</strong> fix global namespace declaration for UMD bundle (<a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9912">#9912</a>) <a class="commit-link" href="https://github.com/vuejs/vue/commit/ab50e8e1da2f4f944af683252481728485fedf16"><tt>ab50e8e</tt></a>, closes <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9912">#9912</a></li>
 </ul>
-## v2.6.10 ##
- ### 2019-03-20T06:45:23Z ### 
-Link: https://github.com/vuejs/vue/releases/tag/v2.6.10 
+
+## v2.6.10
+<p style="font-size:12px;"> 20, Mar 2019 🔗 
+<a href="https://github.com/vuejs/vue/releases/tag/v2.6.10" target="_blank"> 
+Source </a></p>
 <h3>Bug Fixes</h3>
 <ul>
 <li><strong>codegen:</strong> support named function expression in v-on (<a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9709">#9709</a>) <a class="commit-link" href="https://github.com/vuejs/vue/commit/3433ba5beef9a6dd97705943c3441ebbee222afd"><tt>3433ba5</tt></a>, closes <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9709">#9709</a> <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/issues/9707">#9707</a></li>
@@ -31,9 +37,11 @@ Link: https://github.com/vuejs/vue/releases/tag/v2.6.10
 <li><strong>types:</strong> allow using functions on the PropTypes (<a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9733">#9733</a>) <a class="commit-link" href="https://github.com/vuejs/vue/commit/df4af4bd1906b9f23b62816142fdfbd6336d3d2f"><tt>df4af4b</tt></a>, closes <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9733">#9733</a> <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/issues/9692">#9692</a></li>
 <li><strong>types:</strong> support string type for style in VNode data (<a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9728">#9728</a>) <a class="commit-link" href="https://github.com/vuejs/vue/commit/982d5a492fb95577217e2dacaa044eabe78a8601"><tt>982d5a4</tt></a>, closes <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9728">#9728</a> <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/issues/9727">#9727</a></li>
 </ul>
-## v2.6.9 ##
- ### 2019-03-20T06:45:02Z ### 
-Link: https://github.com/vuejs/vue/releases/tag/v2.6.9 
+
+## v2.6.9
+<p style="font-size:12px;"> 20, Mar 2019 🔗 
+<a href="https://github.com/vuejs/vue/releases/tag/v2.6.9" target="_blank"> 
+Source </a></p>
 <h3>Bug Fixes</h3>
 <ul>
 <li>event timeStamp check for Qt <a class="commit-link" href="https://github.com/vuejs/vue/commit/7591b9dc6dde314f2d32dcd7a8355f696a330979"><tt>7591b9d</tt></a>, closes <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/issues/9681">#9681</a></li>
@@ -48,9 +56,11 @@ Link: https://github.com/vuejs/vue/releases/tag/v2.6.9
 <li><strong>ssr:</strong> fix nested async functional componet rendering (<a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9673">#9673</a>) <a class="commit-link" href="https://github.com/vuejs/vue/commit/8082d2f910d963f14c151fb445e0fcc5c975cca9"><tt>8082d2f</tt></a>, closes <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9673">#9673</a> <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/issues/9643">#9643</a></li>
 <li><strong>transition:</strong> fix appear check for transition wrapper components (<a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9668">#9668</a>) <a class="commit-link" href="https://github.com/vuejs/vue/commit/4de4649d9637262a9b007720b59f80ac72a5620c"><tt>4de4649</tt></a>, closes <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9668">#9668</a></li>
 </ul>
-## v2.6.8 ##
- ### 2019-03-01T15:04:23Z ### 
-Link: https://github.com/vuejs/vue/releases/tag/v2.6.8 
+
+## v2.6.8
+<p style="font-size:12px;"> 01, Mar 2019 🔗 
+<a href="https://github.com/vuejs/vue/releases/tag/v2.6.8" target="_blank"> 
+Source </a></p>
 <h3>Bug Fixes</h3>
 <ul>
 <li>avoid compression of unicode sequences by using regexps (<a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9595">#9595</a>) <a class="commit-link" href="https://github.com/vuejs/vue/commit/7912f75c5eb09e0aef3e4bfd8a3bb78cad7540d7"><tt>7912f75</tt></a>, closes <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9595">#9595</a> <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/issues/9456">#9456</a></li>
@@ -62,9 +72,11 @@ Link: https://github.com/vuejs/vue/releases/tag/v2.6.8
 <li><strong>types:</strong> allow scoped slots to return a single VNode (<a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9563">#9563</a>) <a class="commit-link" href="https://github.com/vuejs/vue/commit/241eea19a64550bfdb3f9d7e4197127997572842"><tt>241eea1</tt></a>, closes <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9563">#9563</a></li>
 <li><strong>types:</strong> update this for nextTick api (<a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9541">#9541</a>) <a class="commit-link" href="https://github.com/vuejs/vue/commit/f33301619d18b9392597c5230af17921c0b42466"><tt>f333016</tt></a>, closes <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9541">#9541</a></li>
 </ul>
-## v2.6.7 ##
- ### 2019-02-21T22:08:57Z ### 
-Link: https://github.com/vuejs/vue/releases/tag/v2.6.7 
+
+## v2.6.7
+<p style="font-size:12px;"> 21, Feb 2019 🔗 
+<a href="https://github.com/vuejs/vue/releases/tag/v2.6.7" target="_blank"> 
+Source </a></p>
 <h3>Bug Fixes</h3>
 <ul>
 <li>avoid errors thrown during dom props update <a class="commit-link" href="https://github.com/vuejs/vue/commit/8a80a23ecba23f92f278d664388050ffcd121385"><tt>8a80a23</tt></a>, closes <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/issues/9459">#9459</a></li>
@@ -75,26 +87,32 @@ Link: https://github.com/vuejs/vue/releases/tag/v2.6.7
 <li><strong><a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/issues/9511">#9511</a>:</strong> avoid promise catch multiple times (<a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9526">#9526</a>) <a class="commit-link" href="https://github.com/vuejs/vue/commit/2f3020e9cc1ad5c878606b56bb73a30b1d9bb7d9"><tt>2f3020e</tt></a>, closes <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/issues/9511">#9511</a> <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9526">#9526</a> <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/issues/9511">#9511</a> <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/issues/9511">#9511</a> <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/issues/9511">#9511</a></li>
 <li><strong>compiler:</strong> handle negative length in codeframe repeat <a class="commit-link" href="https://github.com/vuejs/vue/commit/7a8de91cd78f523fabe8452652513250871a01c6"><tt>7a8de91</tt></a></li>
 </ul>
-## v2.6.6 ##
- ### 2019-02-12T04:21:23Z ### 
-Link: https://github.com/vuejs/vue/releases/tag/v2.6.6 
+
+## v2.6.6
+<p style="font-size:12px;"> 12, Feb 2019 🔗 
+<a href="https://github.com/vuejs/vue/releases/tag/v2.6.6" target="_blank"> 
+Source </a></p>
 <h3>Bug Fixes</h3>
 <ul>
 <li>ensure scoped slot containing passed down slot content updates properly <a class="commit-link" href="https://github.com/vuejs/vue/commit/21fca2fffc3a75235a6656eb85ae40835e04bf69"><tt>21fca2f</tt></a></li>
 <li>fix keyCode check for Chrome autofill fake key events <a class="commit-link" href="https://github.com/vuejs/vue/commit/29c348f3cf60c50a52cc98123f8c54fa8f5672fc"><tt>29c348f</tt></a>, closes <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/issues/9441">#9441</a></li>
 </ul>
-## v2.6.5 ##
- ### 2019-02-11T05:18:30Z ### 
-Link: https://github.com/vuejs/vue/releases/tag/v2.6.5 
+
+## v2.6.5
+<p style="font-size:12px;"> 11, Feb 2019 🔗 
+<a href="https://github.com/vuejs/vue/releases/tag/v2.6.5" target="_blank"> 
+Source </a></p>
 <h3>Bug Fixes</h3>
 <ul>
 <li>allow passing multiple arguments to scoped slot <a class="commit-link" href="https://github.com/vuejs/vue/commit/e7d49cdcf2fd9a612e0dac7a7bea318824210881"><tt>e7d49cd</tt></a>, closes <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/issues/9468">#9468</a></li>
 <li>bail out of event blocking for iOS bug <a class="commit-link" href="https://github.com/vuejs/vue/commit/0bad7e2a3508b55abaa8aec2a1bd9c1127305cb4"><tt>0bad7e2</tt></a>, closes <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/issues/9462">#9462</a></li>
 <li>do not cache scoped slots when mixed with normal slots <a class="commit-link" href="https://github.com/vuejs/vue/commit/060686d6ea4d013129b4d2e93d7d2e5c93e09686"><tt>060686d</tt></a></li>
 </ul>
-## v2.6.4 ##
- ### 2019-02-08T21:48:31Z ### 
-Link: https://github.com/vuejs/vue/releases/tag/v2.6.4 
+
+## v2.6.4
+<p style="font-size:12px;"> 08, Feb 2019 🔗 
+<a href="https://github.com/vuejs/vue/releases/tag/v2.6.4" target="_blank"> 
+Source </a></p>
 <h3>Performance Improvements</h3>
 <ul>
 <li>cache result from functional ctx.slots() calls <a class="commit-link" href="https://github.com/vuejs/vue/commit/7a0dfd0badf3054c95ac1ec66cc6e213f1592c95"><tt>7a0dfd0</tt></a></li>
@@ -108,9 +126,11 @@ Link: https://github.com/vuejs/vue/releases/tag/v2.6.4
 <li>expose v-slot slots without scope on this.$slots <a class="commit-link" href="https://github.com/vuejs/vue/commit/0e8560d0fc1c0fbf3a52464939701e0e44543b00"><tt>0e8560d</tt></a>, closes <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/issues/9421">#9421</a> <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/issues/9458">#9458</a></li>
 <li>new syntax slots without scope should also be exposed on functional slots() <a class="commit-link" href="https://github.com/vuejs/vue/commit/8a800867fe61e5aa642e1e3da91bb890d07312f7"><tt>8a80086</tt></a></li>
 </ul>
-## v2.6.3 ##
- ### 2019-02-06T21:53:10Z ### 
-Link: https://github.com/vuejs/vue/releases/tag/v2.6.3 
+
+## v2.6.3
+<p style="font-size:12px;"> 06, Feb 2019 🔗 
+<a href="https://github.com/vuejs/vue/releases/tag/v2.6.3" target="_blank"> 
+Source </a></p>
 <h3>Bug Fixes</h3>
 <ul>
 <li>async component should use render owner as force update context <a class="commit-link" href="https://github.com/vuejs/vue/commit/b9de23b1008b52deca7e7df40843e318a42f3f53"><tt>b9de23b</tt></a>, closes <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/issues/9432">#9432</a></li>
