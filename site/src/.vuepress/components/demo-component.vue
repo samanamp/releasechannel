@@ -28,12 +28,12 @@ module.exports = {
       console.log(this.appCode)
       console.log(this.email)
       axios.post("https://api.releasechannel.com/subscribe", {
-        data: {
+        
           "email": this.email,
           "application": this.appCode
-          },
+          },{
         headers: {
-          "Content-Type":"application/json"
+          'Content-Type': 'application/json'
         }
       })
       .then(response => (this.message = '✅'))
