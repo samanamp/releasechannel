@@ -2,10 +2,11 @@ import time
 from flask import Flask
 from flask import request
 from db_handler import DbHandler
-
+from flask_cors import CORS
 
 app = Flask(__name__)
 db_handler = DbHandler()
+CORS(app)
 
 @app.route("/")
 def hello_world():
