@@ -1,4 +1,5 @@
 const { description } = require('../../package')
+const axios = require('axios');
 const sidebar = require('vuepress-auto-sidebar')
 const dirTree = require('directory-tree');
 const path = require('path');
@@ -36,10 +37,14 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    searchPlaceholder: 'Search app...',
+    smoothScroll: true,
     repo: '',
     editLinks: false,
     docsDir: '',
     editLinkText: '',
+    nextLinks: false,
+    prevLinks: false,
     lastUpdated: false,
     nav: [
       {

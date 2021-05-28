@@ -1,9 +1,35 @@
+---
+tag: "nginx-ingress-controller"
+---
 # Nginx Ingress Controller
+<div sampledata="nginx-ingress-controller">
+<demo-component app-code="nginx-ingress"/>
+</div>
+
+<!-- <script>
+var subscribe-form = new Vue({
+  el: '#subscribe-form',
+  data: {
+    email: email
+  },
+  // define methods under the `methods` object
+  methods: {
+    submit: function (event) {
+      // `this` inside methods points to the Vue instance
+      alert('Hello ' + this.name + '!')
+      // `event` is the native DOM event
+      if (event) {
+        alert(event.target.tagName)
+      }
+    }
+  }
+})
+</script> -->
 
 ## helm-chart-3.31.0
-<p style="font-size:12px;"> 18, May 2021 🔗 
+<p style="font-size:12px;"> 18, May 2021 
 <a href="https://github.com/kubernetes/ingress-nginx/releases/tag/helm-chart-3.31.0" target="_blank"> 
-Source </a></p>
+Source </a><OutboundLink /></p>
 <p>Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer</p>
 
 ## helm-chart-3.30.0

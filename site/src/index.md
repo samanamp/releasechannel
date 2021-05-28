@@ -14,5 +14,4 @@ features:
 # footer: Made by Saman A. Pour with ❤️ 
 ---
 <hr><p style="font-family:times;font-size:11px;">
-Made by Saman A. Pour with ❤️ 
 <br/>Icons made by <a href="https://www.flaticon.com/authors/wanicon" title="wanicon">wanicon</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>

@@ -23,9 +23,9 @@ class Application(Model):
         md_doc = f"""# {self.app_name}\n"""
         for update in self.get_updates():
             update_string = f"""\n## {update['version']}
-<p style="font-size:12px;"> {datetime.strptime(update['updated'].replace('T',' ').replace('Z',''), '%Y-%m-%d %H:%M:%S').strftime('%d, %b %Y')} 🔗 
+<p style="font-size:12px;"> {datetime.strptime(update['updated'].replace('T',' ').replace('Z',''), '%Y-%m-%d %H:%M:%S').strftime('%d, %b %Y')} 
 <a href="{update['link']}" target="_blank"> 
-Source </a></p>\n{update['description']}\n"""
+Source </a><OutboundLink /></p>\n{update['description']}\n"""
             md_doc += update_string
 
         return md_doc
