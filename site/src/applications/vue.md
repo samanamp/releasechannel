@@ -1,6 +1,6 @@
 # Vue
 
-<div>
+<div class='component'>
 <demo-component app-code="vue"/>
 </div>
 

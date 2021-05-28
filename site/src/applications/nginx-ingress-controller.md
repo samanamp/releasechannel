@@ -1,6 +1,6 @@
 # Nginx Ingress Controller
 
-<div>
+<div class='component'>
 <demo-component app-code="nginx-ingress-controller"/>
 </div>
 
