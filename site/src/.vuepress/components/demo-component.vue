@@ -1,12 +1,12 @@
-
-
 <template>
-  <form onsubmit="return false">
+  <div>
+  <button v-show="!showForm" @click="showForm=true">Subscribe to Updates</button>
+  <form v-show="showForm" onsubmit="return false">
     <input v-model="email" placeholder="Add email to receive updates">
     <input type="submit" @click="post_data"/>
     <label> {{ message }} </label>
-    </form>
-    
+  </form>
+    </div>
 </template>
 
 <script>
@@ -17,6 +17,7 @@ module.exports = {
   props: ['appCode'],
   data: function() {
     return {
+      showForm: false,
       email: "Your Email",
       message: "Trying"
     }
