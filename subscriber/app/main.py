@@ -15,9 +15,9 @@ def hello_world():
 @app.route("/subscribe", methods=['POST'])
 def subscribe():
     global db_handler
-    print(request.headers)
-    email = request.headers.get('email')
-    application = request.headers.get('application')
+    print(request.json)
+    email = request.json['email']
+    application = request.json['application']
     print(email)
     print(application)
     before = time.time()
@@ -28,9 +28,9 @@ def subscribe():
 @app.route("/unsubscribe", methods=['POST'])
 def unsubscribe():
     global db_handler
-    print(request.headers)
-    email = request.headers.get('email')
-    application = request.headers.get('application')
+    print(request.json)
+    email = request.json['email']
+    application = request.json['application']
     print(email)
     print(application)
     before = time.time()

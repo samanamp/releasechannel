@@ -27,8 +27,14 @@ module.exports = {
       this.message='⏳'
       console.log(this.appCode)
       console.log(this.email)
-      axios.get("https://api.releasechannel.com/", {
-        headers: {"Access-Control-Allow-Origin": "*", "email": this.email, "application": this.appCode}
+      axios.post("https://api.releasechannel.com/subscribe", {
+        data: {
+          "email": this.email,
+          "application": this.appCode
+          },
+        headers: {
+          "Content-Type":"application/json"
+        }
       })
       .then(response => (this.message = '✅'))
       .catch(response => (this.message = '🚫'))
