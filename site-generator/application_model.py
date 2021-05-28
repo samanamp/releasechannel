@@ -20,7 +20,9 @@ class Application(Model):
         return json.loads(self.updates)
 
     def md_generator(self):
-        md_doc = f"""# {self.app_name}\n"""
+        md_doc = f"""# {self.app_name}\n\n<div>
+<demo-component app-code="{self.app_name.lower().replace(' ', '-')}"/>
+</div>\n\n"""
         for update in self.get_updates():
             update_string = f"""\n## {update['version']}
 <p style="font-size:12px;"> {datetime.strptime(update['updated'].replace('T',' ').replace('Z',''), '%Y-%m-%d %H:%M:%S').strftime('%d, %b %Y')} 

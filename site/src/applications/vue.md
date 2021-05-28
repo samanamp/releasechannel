@@ -1,15 +1,20 @@
 # Vue
 
+<div>
+<demo-component app-code="vue"/>
+</div>
+
+
 ## v2.6.12
-<p style="font-size:12px;"> 20, Aug 2020 🔗 
+<p style="font-size:12px;"> 20, Aug 2020 
 <a href="https://github.com/vuejs/vue/releases/tag/v2.6.12" target="_blank"> 
-Source </a></p>
+Source </a><OutboundLink /></p>
 <p>build: release 2.6.12</p>
 
 ## v2.6.11
-<p style="font-size:12px;"> 13, Dec 2019 🔗 
+<p style="font-size:12px;"> 13, Dec 2019 
 <a href="https://github.com/vuejs/vue/releases/tag/v2.6.11" target="_blank"> 
-Source </a></p>
+Source </a><OutboundLink /></p>
 <h3>Security Fixes</h3>
 <ul>
 <li>Bump <code>vue-server-renderer</code>'s dependency of <code>serialize-javascript</code> to 2.1.2</li>
@@ -23,9 +28,9 @@ Source </a></p>
 </ul>
 
 ## v2.6.10
-<p style="font-size:12px;"> 20, Mar 2019 🔗 
+<p style="font-size:12px;"> 20, Mar 2019 
 <a href="https://github.com/vuejs/vue/releases/tag/v2.6.10" target="_blank"> 
-Source </a></p>
+Source </a><OutboundLink /></p>
 <h3>Bug Fixes</h3>
 <ul>
 <li><strong>codegen:</strong> support named function expression in v-on (<a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9709">#9709</a>) <a class="commit-link" href="https://github.com/vuejs/vue/commit/3433ba5beef9a6dd97705943c3441ebbee222afd"><tt>3433ba5</tt></a>, closes <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9709">#9709</a> <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/issues/9707">#9707</a></li>
@@ -39,9 +44,9 @@ Source </a></p>
 </ul>
 
 ## v2.6.9
-<p style="font-size:12px;"> 20, Mar 2019 🔗 
+<p style="font-size:12px;"> 20, Mar 2019 
 <a href="https://github.com/vuejs/vue/releases/tag/v2.6.9" target="_blank"> 
-Source </a></p>
+Source </a><OutboundLink /></p>
 <h3>Bug Fixes</h3>
 <ul>
 <li>event timeStamp check for Qt <a class="commit-link" href="https://github.com/vuejs/vue/commit/7591b9dc6dde314f2d32dcd7a8355f696a330979"><tt>7591b9d</tt></a>, closes <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/issues/9681">#9681</a></li>
@@ -58,9 +63,9 @@ Source </a></p>
 </ul>
 
 ## v2.6.8
-<p style="font-size:12px;"> 01, Mar 2019 🔗 
+<p style="font-size:12px;"> 01, Mar 2019 
 <a href="https://github.com/vuejs/vue/releases/tag/v2.6.8" target="_blank"> 
-Source </a></p>
+Source </a><OutboundLink /></p>
 <h3>Bug Fixes</h3>
 <ul>
 <li>avoid compression of unicode sequences by using regexps (<a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9595">#9595</a>) <a class="commit-link" href="https://github.com/vuejs/vue/commit/7912f75c5eb09e0aef3e4bfd8a3bb78cad7540d7"><tt>7912f75</tt></a>, closes <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/pull/9595">#9595</a> <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/issues/9456">#9456</a></li>
@@ -74,9 +79,9 @@ Source </a></p>
 </ul>
 
 ## v2.6.7
-<p style="font-size:12px;"> 21, Feb 2019 🔗 
+<p style="font-size:12px;"> 21, Feb 2019 
 <a href="https://github.com/vuejs/vue/releases/tag/v2.6.7" target="_blank"> 
-Source </a></p>
+Source </a><OutboundLink /></p>
 <h3>Bug Fixes</h3>
 <ul>
 <li>avoid errors thrown during dom props update <a class="commit-link" href="https://github.com/vuejs/vue/commit/8a80a23ecba23f92f278d664388050ffcd121385"><tt>8a80a23</tt></a>, closes <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/issues/9459">#9459</a></li>
@@ -89,9 +94,9 @@ Source </a></p>
 </ul>
 
 ## v2.6.6
-<p style="font-size:12px;"> 12, Feb 2019 🔗 
+<p style="font-size:12px;"> 12, Feb 2019 
 <a href="https://github.com/vuejs/vue/releases/tag/v2.6.6" target="_blank"> 
-Source </a></p>
+Source </a><OutboundLink /></p>
 <h3>Bug Fixes</h3>
 <ul>
 <li>ensure scoped slot containing passed down slot content updates properly <a class="commit-link" href="https://github.com/vuejs/vue/commit/21fca2fffc3a75235a6656eb85ae40835e04bf69"><tt>21fca2f</tt></a></li>
@@ -99,9 +104,9 @@ Source </a></p>
 </ul>
 
 ## v2.6.5
-<p style="font-size:12px;"> 11, Feb 2019 🔗 
+<p style="font-size:12px;"> 11, Feb 2019 
 <a href="https://github.com/vuejs/vue/releases/tag/v2.6.5" target="_blank"> 
-Source </a></p>
+Source </a><OutboundLink /></p>
 <h3>Bug Fixes</h3>
 <ul>
 <li>allow passing multiple arguments to scoped slot <a class="commit-link" href="https://github.com/vuejs/vue/commit/e7d49cdcf2fd9a612e0dac7a7bea318824210881"><tt>e7d49cd</tt></a>, closes <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/issues/9468">#9468</a></li>
@@ -110,9 +115,9 @@ Source </a></p>
 </ul>
 
 ## v2.6.4
-<p style="font-size:12px;"> 08, Feb 2019 🔗 
+<p style="font-size:12px;"> 08, Feb 2019 
 <a href="https://github.com/vuejs/vue/releases/tag/v2.6.4" target="_blank"> 
-Source </a></p>
+Source </a><OutboundLink /></p>
 <h3>Performance Improvements</h3>
 <ul>
 <li>cache result from functional ctx.slots() calls <a class="commit-link" href="https://github.com/vuejs/vue/commit/7a0dfd0badf3054c95ac1ec66cc6e213f1592c95"><tt>7a0dfd0</tt></a></li>
@@ -128,9 +133,9 @@ Source </a></p>
 </ul>
 
 ## v2.6.3
-<p style="font-size:12px;"> 06, Feb 2019 🔗 
+<p style="font-size:12px;"> 06, Feb 2019 
 <a href="https://github.com/vuejs/vue/releases/tag/v2.6.3" target="_blank"> 
-Source </a></p>
+Source </a><OutboundLink /></p>
 <h3>Bug Fixes</h3>
 <ul>
 <li>async component should use render owner as force update context <a class="commit-link" href="https://github.com/vuejs/vue/commit/b9de23b1008b52deca7e7df40843e318a42f3f53"><tt>b9de23b</tt></a>, closes <a class="issue-link js-issue-link" href="https://github.com/vuejs/vue/issues/9432">#9432</a></li>
