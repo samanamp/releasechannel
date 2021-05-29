@@ -1,0 +1,41 @@
+apps:
+  - name: Nginx Ingress Controller
+    rss: https://github.com/kubernetes/ingress-nginx/releases.atom
+  - name: Vue
+    rss: https://github.com/vuejs/vue/releases.atom
+  - name: Python
+    rss: https://github.com/python/cpython/releases.atom
+  - name: Keycloak
+    rss: https://github.com/keycloak/keycloak/releases.atom
+  - name: Kubernetes
+    rss: https://github.com/kubernetes/kubernetes/releases.atom
+  - name: Argocd
+    rss: https://github.com/argoproj/argo-cd/releases.atom
+  - name: Argo Rollouts
+    rss: https://github.com/argoproj/argo-rollouts/releases.atom
+  - name: CoreDNS
+    rss: https://github.com/coredns/coredns/releases.atom
+  - name: Envoy
+    rss: https://github.com/envoyproxy/envoy/releases.atom
+  - name: etcd
+    rss: https://github.com/etcd-io/etcd/releases.atom
+  - name: Fluentd
+    rss: https://github.com/fluent/fluentd/releases.atom
+  - name: Harbor
+    rss: https://github.com/goharbor/harbor/releases.atom
+  - name: Helm
+    rss: https://github.com/helm/helm/releases.atom
+  - name: Jaeger
+    rss: https://github.com/jaegertracing/jaeger/releases.atom
+  - name: Open Policy Agent
+    rss: https://github.com/open-policy-agent/opa/releases.atom
+  - name: Prometheus
+    rss: https://github.com/prometheus/prometheus/releases.atom
+  - name: Rook
+    rss: https://github.com/rook/rook/releases.atom
+  - name: TiKV
+    rss: https://github.com/tikv/tikv/releases.atom
+  - name: TUF
+    rss: https://github.com/theupdateframework/specification/releases.atom
+  - name: Vitess
+    rss: https://github.com/vitessio/vitess/releases.atom

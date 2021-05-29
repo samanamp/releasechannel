@@ -1,6 +1,8 @@
 import feedparser
+from time import sleep
 import pprint
 from application_model import Application, ApplicationUpdate
+import yaml
 # from db_handler_class import DbHandler
 
 # db_handler = DbHandler().f()
@@ -12,18 +14,22 @@ from application_model import Application, ApplicationUpdate
 # app = Application('Nginx Ingress Controller')
 # app.rss_link = "https://github.com/kubernetes/ingress-nginx/releases.atom"
 # app.save()
+with open(r'app_list.yaml') as app_list_file:
+    app_list = yaml.load(app_list_file, Loader=yaml.FullLoader)['apps']
 
-for app in Application.scan():
-    print(app.rss_link)
-    NewsFeed = feedparser.parse(app.rss_link)
-    entry = NewsFeed.entries[1]
-    # print(entry)
-    # print(entry['title'])
+for app in app_list:
+    print(app['name'])
+    NewsFeed = feedparser.parse(app['rss'])
+    application = Application()
+    application.app_name = app['name']
+    application.rss_link = app['rss']
+
     update_list = []
     for entry in NewsFeed.entries:
         app_update = ApplicationUpdate(entry['title'], entry['updated'], entry['content'][0]['value'], entry['link'])
         update_list.append(app_update.__dict__)
-
-    app.set_updates(update_list)
-    app.save()
+    
+    application.set_updates(update_list)
+    application.save()
+    sleep(0.5)
 
